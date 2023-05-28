@@ -1,4 +1,30 @@
 [app-menu-bar] {
-  padding-top: 20px;
+  display: flex;
+  /* padding-top: 20px; */
   text-align: center;
+  height: 70px;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  transform: translateY(-3px);
+  z-index: 0;
+}
+
+nav {
+  /* border: 1px solid salmon; */
+  width: 100%;
+}
+
+ul {
+  margin: 0 180px;
+  /* border: 1px solid green; */
+  height: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  transform: translateX(-15px);
+  gap: 20px;
 }

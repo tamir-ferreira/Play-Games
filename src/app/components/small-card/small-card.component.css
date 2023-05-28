@@ -1,10 +1,23 @@
 [app-small-card] {
-  border: 1px solid green;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-[app-small-card] article {
+article {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+span {
+  font-size: 12px;
+  color: darkgray;
 }

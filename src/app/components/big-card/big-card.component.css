@@ -1,11 +1,17 @@
 [app-big-card] {
-  border: 1px solid red;
   width: 400px;
-  height: 350px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
 }
 
-[app-big-card] img {
+img {
   width: 100%;
-  height: 55%;
-  /* height: 500px; */
+  height: 200px;
+}
+
+p {
+  color: dimgray;
 }

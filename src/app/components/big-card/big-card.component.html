@@ -1,11 +1,9 @@
 <div app-big-card>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
-    alt=""
-  />
-  <h2>Lorem ipsum dolor sit amet, consectetur adipisicing</h2>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, autem.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, autem.
-  </p>
+  <a [routerLink]="['content', id]">
+    <img src="{{ photoCover }}" alt="foto de capa" />
+  </a>
+  <h2>
+    <a [routerLink]="['content', id]">{{ cardTitle }} </a>
+  </h2>
+  <p>{{ cardDescription }}</p>
 </div>
