@@ -1,12 +1,19 @@
-<app-menu-bar></app-menu-bar>
-<main>
+<header class="container">
+  <app-menu-bar></app-menu-bar>
   <app-menu-title></app-menu-title>
+</header>
+<main class="container">
   <section>
     <app-big-card></app-big-card>
-    <aside>
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-    </aside>
   </section>
+  <aside>
+    <ul>
+      <app-small-card></app-small-card>
+      <app-small-card></app-small-card>
+      <app-small-card></app-small-card>
+    </ul>
+  </aside>
 </main>
+<footer class="container">
+  <app-credits></app-credits>
+</footer>

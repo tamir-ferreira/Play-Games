@@ -1,0 +1,10 @@
+[app-small-card] {
+  border: 1px solid green;
+  list-style: none;
+}
+
+[app-small-card] article {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

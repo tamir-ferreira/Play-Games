@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid yellow;
+  /* gap: 30px; */
+}
+
+section {
+  /* width: 35%; */
+  padding: 20px;
+}
+aside {
+  width: 60%;
+  padding: 20px;
+  border: 1px solid blue;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
